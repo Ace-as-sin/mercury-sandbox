@@ -9,6 +9,7 @@ npm install
 To Start Server:
 
 npm start
+
 npm run dev
 
 To Visit App:
