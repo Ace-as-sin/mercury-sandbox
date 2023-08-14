@@ -11,10 +11,10 @@ const PokemonDisplay = ({ pokemonList }) => {
                     return (
                         <motion.div className="pokemon-card-container"
                             whileHover={{
-                                rotate: 5,
+                                rotate: [5, -5, 5, -5, 0],
                                 scale: 1.05,
                                 boxShadow: "2px 4px 8px rgba(0, 0, 0, 0.411)",
-                                transition: { duration: .2, ease: "linear" },
+                                transition: { duration: .3, ease: "linear"},
                             }}
                             key={i}
                         >
