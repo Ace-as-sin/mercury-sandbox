@@ -46,6 +46,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1 className="title">Poke Api!</h1>
       {pokemonList ? <PokemonDisplay pokemonList={pokemonList} /> : <PokeballAnimation />}
       <div className="button-container">
         {pokemonList && previousUrl ? <button onClick={() => { navigate(previousUrl) }}>Load previous</button> : null}
